@@ -1,10 +1,102 @@
 <!DOCTYPE html>
+
 <html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>HOME - IFSP Pirituba </title>
+    <script src="js/disabling.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+
 <body>
 
-<h1>My First Heading</h1>
+    <header id="cabecalho">
 
-<p>My first paragraph.</p>
+        <nav>
+            <object width="100%" height="65px" data="menu.html"></object>
+        </nav>
+
+        <img src="Imagens/Logo.jpg" alt=" "/>
+
+        <nav>
+            <p><b>Cursos do IFSP - Campus Pirituba </b></p>
+            <ul>
+                <li>
+                    <a href="ads.html">Tecnologia em Análise e Desenvolvimento de Sistemas</a>
+                </li>
+                <li>
+                    <a href="eng.html">Bacharelado em Engenharia de Produção</a>
+                </li>
+
+                <li>
+                    <a href="letras.html">Licenciatura em Letras</a>
+                </li>
+                <li>
+                    <a href="gepu.html">Tecnologia em Gestão Pública</a>
+                </li>
+                <li>
+                    <a href="redes.html">Técnico em Redes de Computadores Integrado ao Ensino Médio</a>
+                </li>
+                <li>
+                    <a href="log.html">Técnico em Logística Integrado ao Ensino Médio</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main id="conteudo">
+
+        <aside>
+            <h1 class="centro">Acontece no IFSP</h1>
+            <figure>
+                <img src="Imagens/SEJA_RARO.jpg" id="img_borda" alt="Palestra Seja Raro"/>
+                <figcaption class="bordas">Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</figcaption>
+            </figure>
+
+            
+        </aside>
+
+        <section>
+            <h2>
+                Sobre a Biblioteca
+            </h2>
+
+            <article>
+                <img src="Imagens/library.jpeg" alt="Biblioteca" />
+                <h2>Conheça os novos títulos disponíveis na nossa biblioteca</h2>
+                <h6>
+                    Publicado: Quarta-feira, 14 de agosto de 2019
+                </h6>
+            </article>
+        </section>
+        <section>
+            <h1 class="centro">
+                Conheça o SUAP
+            </h1>
+            <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/5g5LQe3m8Po?si=wksDRGz2TUoFamlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+        <br><br>
+        <div id="my_menu" align="left">
+            <a href="#cabecalho"><img src="Imagens/MoveTop.png" width="41" height="43" title="Mover para o topo" alt="Mover para o topo"></a> |
+            <a href="https://www.facebook.com/ifsppirituba"><img src="Imagens/facebook.png" width="41" height="43" title="IFSP Facebook" alt="IFSP Facebook"></a>
+        </div>
+        <p>
+            IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100
+        </p>
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js"; const firebaseConfig = { apiKey: "AIzaSyDcr6AjxgAo2zFWohakGZVYvBQNOugOHmc", authDomain: "pwe-redes.firebaseapp.com", projectId: "pwe-redes", storageBucket: "pwe-redes.appspot.com",
+        messagingSenderId: "1014309916640", appId: "1:1014309916640:web:5a5907d315bc9fd7b72585" }; const app = initializeApp(firebaseConfig);
+    </script>
 
 </body>
+
 </html>

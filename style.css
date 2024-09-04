@@ -1,0 +1,29 @@
+#conteudo {
+    width: 100%;
+    float: right;
+  }
+  
+  #img_borda {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+  } 
+  
+  figure figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+  }
+  
+  .centro {
+    text-align: center;
+  }
+  
+  #video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
