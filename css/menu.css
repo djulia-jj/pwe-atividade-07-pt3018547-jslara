@@ -1,3 +1,8 @@
+header {
+  background-color: #f8f9fa; /* Cor de fundo do menu */
+  border-bottom: 2px solid #ccc;
+} 
+
 div#menuhorizontal {
 	background-color: green;
 }
