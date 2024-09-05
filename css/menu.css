@@ -6,6 +6,7 @@ div#menuhorizontal ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 0;
     overflow: hidden;
     background-color: #333;
   }
@@ -23,7 +24,7 @@ div#menuhorizontal ul {
   }
   
   div#menuhorizontal li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(42, 123, 49);
   }
   
   div#menuhorizontal li.dropdown {
