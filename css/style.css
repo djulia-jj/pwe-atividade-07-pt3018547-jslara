@@ -46,11 +46,11 @@
   }
 
   .grid-item img {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
   } 
 
   .grid-item p {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
   }
