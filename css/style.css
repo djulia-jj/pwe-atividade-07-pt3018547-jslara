@@ -49,3 +49,8 @@
     max-width: 70%;
     height: auto;
   } 
+
+  .grid-item p {
+    font-size: 1rem;
+    text-align: center;
+  }
