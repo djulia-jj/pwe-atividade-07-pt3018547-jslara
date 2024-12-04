@@ -16,9 +16,7 @@ class Texto extends React.Component {
     }
   }
   
-  const domNode = document.getElementById('mydiv');
-  const mydiv = ReactDOM.createRoot(domNode);
-  
-  // Passando o texto como prop
-  mydiv.render(<Texto negrito="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo" />);
+const domNode = document.getElementById('mydiv');
+const mydiv = ReactDOM.createRoot(domNode);
+mydiv.render(<Texto negrito="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo" />);
   
