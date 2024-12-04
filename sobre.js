@@ -20,5 +20,10 @@ class Texto extends React.Component {
   
 const domNode = document.getElementById('mydiv');
 const mydiv = ReactDOM.createRoot(domNode);
-mydiv.render(<Texto negrito="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo" endereco="Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010" />);
+mydiv.render(
+  <Texto 
+    negrito="Instituto Federal de Educação, Ciência e Tecnologia de São Paulo" 
+    endereco="Rua Pedro Vicente, 625 - Canindé - São Paulo - SP - Brasil - Cep: 01109-010" 
+  />
+);
   
